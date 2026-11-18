@@ -1,19 +1,21 @@
-program latihan3;
+program perkenalan;
 uses crt;
+
+procedure nama(teks : string);
+begin
+  write('Nama kamu adalah: ', teks);
+end;
+
 var
-a,b : integer;
+  a : string;
 
 begin
-    clrscr;
-    a:= 5;
-    b:= 2;
+  clrscr;
 
-    writeln('a And b: ' , a and b);
-    writeln('a Or b: ' , a or b);
-    writeln('a Xor b: ' , a xor b);
-    writeln('Not a: ' , not a);
-    writeln('a shl b: ' , a shl b);
-    writeln('a shr b: ' , a shr b);
-    
+  write('Masukkan nama : ');
+  readln(a);
 
+  nama(a);
+
+  readln;
 end.

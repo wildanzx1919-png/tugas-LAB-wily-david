@@ -1,17 +1,15 @@
-program latihan;
+program tanpa;
 uses crt;
-var
-a,b : string;
+
+procedure Perkenalan;
+begin
+  writeln('Halo!');
+  writeln('Nama saya adalah wildan!');
+  writeln('Saya lagi belajar pascal');
+end;
 
 begin
-    clrscr;
-    write ('nama saya: ');
-    readln (a);
-    write ('nim saya: ');
-    readln (b);
-
-    writeln;
-    writeln('nama: ',a);
-    writeln('nim: ', b)
-
+  clrscr;
+  Perkenalan;
+  readln;
 end.

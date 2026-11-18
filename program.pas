@@ -1,21 +1,20 @@
-program latihan;
+program arraydua;
 uses crt;
-label a;
-const g=9.8;
-type fuzy=integer;
+
 var
-nilai : fuzy;
+  kursi : array[1..5] of integer;
+
 begin
-clrscr;
-    write ('masukkan bilangan bulat :');
-    read  (nilai);
-    readln;
-    writeln('ilkom');
-    goto a;
-    writeln('TI');
-    a:
-    writeln('USU');
-    writeln(nilai);
-    writeln(g : 0:2);
-    readln;
+  clrscr;
+  kursi[1] := 10;
+  kursi[2] := 120;
+  kursi[3] := 13;
+  kursi[4] := 14;
+  kursi[5] := 115;
+
+  writeln(kursi[1]);
+  writeln(kursi[2]);
+  writeln(kursi[3]);
+  writeln(kursi[4]);
+  writeln(kursi[5]);
 end.

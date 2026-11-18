@@ -1,19 +1,13 @@
-program latihan2;
+program perkenalan;
 uses crt;
 
-var
-a,b : integer;
+procedure Perkenalan(nama: string);
 begin
-    clrscr;
-    a := 10;
-    b := 2;
+  writeln('Halo!', nama);
+end;
 
-    writeln ('a+b: ' , a+b);
-    writeln ('a-b: ' , a-b);
-    writeln ('a*b: ' , a*b);
-    writeln ('a/b: ' , a/b: 0:2);
-    writeln ('a div b: ' , a div b);
-    writeln ('a mod b: ' , a mod b);
-
-
+begin
+  clrscr;
+  Perkenalan('Dyra');
+  readln;
 end.
